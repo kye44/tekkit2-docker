@@ -1,4 +1,4 @@
-### Tekkit2-Server
+### Tekkit2-Docker
 A docker image to spin up a Tekkit2 server.
 Heavily inspired by [garrettheath4/tekkit-minecraft-docker](https://github.com/garrettheath4/tekkit-minecraft-docker/tree/master).
 ## Running the Server
