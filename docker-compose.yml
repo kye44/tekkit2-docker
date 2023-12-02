@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  mc:
+    image: kyepurkis/tekkit2:latest
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      SERVER_OP: <Account Name>
+      SERVER_MOTD: <Server MOTD>
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - ./minecraft-data:/data
