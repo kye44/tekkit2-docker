@@ -1,2 +1,0 @@
-### Running
-1. Run `docker run -e EULA=TRUE -e SERVER_OP=[account name] -p 25565:25565 [image name]`
