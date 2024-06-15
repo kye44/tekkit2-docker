@@ -15,7 +15,7 @@ run apt-get update \
     && apt-get install -y --no-install-recommends curl unzip
 
 # Download server.
-run curl https://servers.technicpack.net/Technic/servers/tekkit-2/Tekkit-2_Server_v1.2.2.zip -o tekkit_server.zip
+run curl https://servers.technicpack.net/Technic/servers/tekkit-2/Tekkit-2_Server_v1.2.3.zip -o tekkit_server.zip
 
 # Unzip files and tidy up.
 run unzip tekkit_server.zip \
